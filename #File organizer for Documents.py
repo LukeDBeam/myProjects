@@ -1,0 +1,64 @@
+#File organizer for Documents
+
+from pathlib import Path
+
+folder = Path("C:/Users/beame/OneDrive/Documents")
+
+for file in folder.iterdir():
+    print(file.name)
+    print(file.suffix)
+
+    for file in folder.iterdir():
+        if file.is_file():
+
+            if file.suffix == ".pdf":
+                print("This is a PDF")
+
+        elif file.suffix == ".jpg":
+            print ("This is an image")
+
+        elif file.suffix == ".xlsx":
+            print ("This is an Excel file")
+
+        elif file.suffix == ".docx":
+            print ("This is a Document")
+
+        elif file.suffix == ".txt":
+            print ("This is a Text Document")
+
+        elif file.suffix == ".jpeg":
+            print ("This is an image")
+
+        elif file.suffix == ".png":
+            print ("This is an image")
+
+        elif file.suffix == ".zip":
+            print ("This is a zip file")
+
+        elif file.suffix == ".csv":
+            print ("This is an spreadsheet")
+
+
+    categories = {
+    ".pdf": "PDFs",
+    ".docx": "Documents",
+    ".txt": "Documents",
+    ".jpg": "Images",
+    ".jpeg": "Images",
+    ".png": "Images",
+    ".xlsx": "Spreadsheets",
+    ".csv": "Spreadsheets",
+    ".zip": "ZIP Files"
+}
+
+for file in folder.iterdir():
+
+    if file.is_file():
+
+        extension = file.suffix.lower()
+        category = categories.get(extension, "Miscellaneous")
+
+        destination = folder / category
+        destination.mkdir(exist_ok=True)
+
+        file.rename(destination / file.name)
