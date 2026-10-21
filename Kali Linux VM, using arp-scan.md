@@ -2,6 +2,7 @@
     #Created Kali VM Called PlyGrd using Orcale VM
     
 <img width="806" height="583" alt="image" src="https://github.com/user-attachments/assets/84ba4361-515c-4f38-bc4a-90d8fb8a9d15" />
+   
     #opened terminal to scan the localnet, then nmaped a located IP
 
     
