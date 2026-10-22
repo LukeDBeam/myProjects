@@ -8,7 +8,8 @@
 
 
 #Created Kali VM & Windows 10 VM with Oracle Manager
-<img width="917" height="343" alt="image" src="https://github.com/user-attachments/assets/ac8343ca-2cc7-4479-85b7-5e8d89584ef1" />
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/22aa569c-6ab9-4cd1-a40f-6ab76df8b597" />
+
 
 #Added sysmon for Event Viewer to monitor logs inside Windows VM 
 <img width="1089" height="816" alt="image" src="https://github.com/user-attachments/assets/8620e687-53ec-4f98-86ed-867d9381851d" />
