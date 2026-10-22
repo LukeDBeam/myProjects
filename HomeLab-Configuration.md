@@ -1,5 +1,6 @@
 #Configuration Overview
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ee20f3d9-6e36-4a03-a9b9-26e938889175" />
+<img width="826" height="552" alt="image" src="https://github.com/user-attachments/assets/531df824-b1d6-4373-a886-5aecba34d972" />
+
 
 
 
